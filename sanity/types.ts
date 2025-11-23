@@ -54,10 +54,8 @@ export type Startup = {
   description?: string;
   category?: string;
   image?: string;
-  pitch?: Markdown;
+  pitch?: string;
 };
-
-export type Markdown = string;
 
 export type Author = {
   _id: string;
@@ -185,5 +183,5 @@ export type Geopoint = {
   alt?: number;
 };
 
-export type AllSanitySchemaTypes = Playlist | Slug | Startup | Markdown | Author | SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageMetadata | SanityImageHotspot | SanityImageCrop | SanityFileAsset | SanityAssetSourceData | SanityImageAsset | Geopoint;
+export type AllSanitySchemaTypes = Playlist | Slug | Startup | Author | SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageMetadata | SanityImageHotspot | SanityImageCrop | SanityFileAsset | SanityAssetSourceData | SanityImageAsset | Geopoint;
 export declare const internalGroqTypeReferenceTo: unique symbol;

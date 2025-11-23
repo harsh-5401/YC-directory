@@ -236,18 +236,10 @@
       "pitch": {
         "type": "objectAttribute",
         "value": {
-          "type": "inline",
-          "name": "markdown"
+          "type": "string"
         },
         "optional": true
       }
-    }
-  },
-  {
-    "name": "markdown",
-    "type": "type",
-    "value": {
-      "type": "string"
     }
   },
   {
